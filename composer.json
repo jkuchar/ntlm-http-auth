@@ -1,0 +1,34 @@
+{
+  "name": "sivin/ntlm-http-auth",
+  "description": "Extension for Nette Framework: NTLM authenticate for authenticator",
+  "type": "library",
+  "keywords": [
+    "ntlm",
+    "security",
+    "ntlm-http-auth",
+    "extension"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/sivin/ntlm-http-auth/issues"
+  },
+  "authors": [
+    {
+      "name": "Milan SiViN Sivák",
+      "email": "sivin@atlas.cz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SiViN\\NtlmHttpAuth\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.4",
+    "nette/di": "^2.3",
+    "nette/http": "^2.3",
+    "nette/security": "^2.3",
+    "nette/application": "^2.3"
+  },
+  "minimum-stability": "dev"
+}
