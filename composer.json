@@ -24,11 +24,11 @@
     }
   },
   "require": {
-    "php": ">=5.4",
-    "nette/di": "^2.3",
-    "nette/http": "^2.3",
-    "nette/security": "^2.3",
-    "nette/application": "^2.3"
+    "php": ">=7.1",
+    "nette/di": "^3.0",
+    "nette/http": "^3.0",
+    "nette/security": "^3.0",
+    "nette/application": "^3.0"
   },
   "minimum-stability": "dev"
 }
